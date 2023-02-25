@@ -32,14 +32,14 @@ The Docker container will set-up the TVM environment for you.
 Build it with:
 
 ``` sh
-docker build -t tvm_web-bonsapps_mwe:latest .
+docker build -t tvm_web_mwe:latest .
 ```
 
 
 ``` sh
 docker run -v $(pwd):/workspace \
     -p  8000:8000 \
-    -ti tvm_web-bonsapps_mwe:latest \
+    -ti tvm_web_mwe:latest \
     bash -i
 
 ```
