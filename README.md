@@ -21,7 +21,7 @@
 
 This is an example project for building a tvm webgpu-backed module and deploy it to the web.
 
-Based on @tqchen's TVM WebGPU example from 2020, the project attempts to make environment setup easier, and to work with newer versions of TVM.
+Based on [@tqchen](https://github.com/tqchen)'s [TVM WebGPU example](https://github.com/tqchen/tvm-webgpu-example) from 2020, the project attempts to make environment setup easier, and to work with newer versions of TVM.
 
 In its current state, a model can be loaded, but the TVM JS libraries are not named correctly.
 
